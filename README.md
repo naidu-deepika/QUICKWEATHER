@@ -1,4 +1,4 @@
-# 🌤 QuickWeather - Weather Forecast Web App
+<img width="1920" height="1020" alt="Screenshot 2026-02-15 194538" src="https://github.com/user-attachments/assets/9354336e-f3bb-49de-b19a-1f227a675850" /># 🌤 QuickWeather - Weather Forecast Web App
 
 QuickWeather is a simple and responsive weather web application built using **HTML, CSS, and JavaScript**.  
 It fetches real-time weather data using the **Open-Meteo API** and displays:
@@ -42,6 +42,69 @@ weather/
 │── index.html
 │── style.css
 │── script.js
-└── README.md.txt
+
+---
+
+## 🌐 API Used
+
+### Open-Meteo API
+- No API key required
+- Provides:
+  - Current weather
+  - Hourly humidity
+  - Daily temperature forecast
+
+---
+
+## ⚙️ How It Works
+
+1. User searches for a city or clicks the location button.
+2. Geocoding API converts city name to latitude & longitude.
+3. Weather data is fetched from Open-Meteo API.
+4. JavaScript updates the DOM dynamically.
+5. Hourly and daily forecasts are displayed.
+
+---
+## 📸 Screenshot
+
+<img width="800" alt="Weather Dashboard Screenshot" 
+src="https://github.com/user-attachments/assets/2b11e983-70d3-48d6-8419-b6cda2588134" />
+
+
+
+## ▶️ How to Run the Project
+
+1. Clone or download the repository.
+2. Open the folder in VS Code.
+3. Right-click `index.html`.
+4. Select **Open with Live Server**.
+5. Allow location access if prompted.
+
+---
+
+## 📌 Learning Outcomes
+
+Through this project, I learned:
+
+- How to fetch data from APIs using `fetch()`
+- Working with async/await
+- DOM manipulation
+- Handling geolocation in JavaScript
+- Mapping API data to UI elements
+- Debugging console errors
+- Creating dynamic web applications
+
+---
+
+## 👩‍💻 Author
+
+Developed by NAIDU DEEPIKA
+
+---
+
+## 📜 License
+
+This project is open-source and free to use.
+
 
 
