@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>QuickWeather</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="container">
+    <h1>QuickWeather</h1>
+
+    <div class="search-box">
+      <input type="text" id="cityInput" placeholder="Enter city name" />
+      <button id="searchBtn">Search</button>
+      <button id="geoBtn">📍</button>
+    </div>
+
+    <div id="weatherCard" class="card hidden">
+      <h2 id="locationName"></h2>
+
+      <div class="temp">
+        <span id="temperature">--</span>°C
+      </div>
+
+      <p id="description"></p>
+
+      <div class="details">
+        <div>💧 Humidity: <span id="humidity">--</span>%</div>
+        <div>🌬 Wind: <span id="wind">--</span> km/h</div>
+      </div>
+    </div>
+
+    <div id="hourly" class="forecast"></div>
+    <div id="daily" class="forecast"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
