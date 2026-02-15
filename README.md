@@ -1,5 +1,3 @@
-<img width="1920" height="1020" alt="Screenshot 2026-02-15 194538" src="https://github.com/user-attachments/assets/9354336e-f3bb-49de-b19a-1f227a675850" /># 🌤 QuickWeather - Weather Forecast Web App
-
 QuickWeather is a simple and responsive weather web application built using **HTML, CSS, and JavaScript**.  
 It fetches real-time weather data using the **Open-Meteo API** and displays:
 
@@ -70,7 +68,8 @@ weather/
 <img width="800" alt="Weather Dashboard Screenshot" 
 src="https://github.com/user-attachments/assets/2b11e983-70d3-48d6-8419-b6cda2588134" />
 
-
+<img width="800" alt="Weather Dashboard Screenshot" 
+src="https://github.com/user-attachments/assets/545b409c-3f71-4b0e-92c6-e4740fbef0fe" />
 
 ## ▶️ How to Run the Project
 
